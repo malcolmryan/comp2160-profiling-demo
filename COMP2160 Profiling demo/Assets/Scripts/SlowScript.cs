@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class SlowScript : MonoBehaviour
 {
-    [SerializeField] private float repelDistance = 1;
-    [SerializeField] private float attractDistance = 2;
+    [SerializeField] private float repelDistance = 2;
+    [SerializeField] private float attractDistance = 4;
     [SerializeField] private float speed = 1;
 
     void Update()
